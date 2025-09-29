@@ -1,9 +1,7 @@
 1. Install Prerequisites
 a) Install Docker
-
-Docker is required for building and running container images locally.
-
-Docker Desktop
- works well for Windows/macOS.
-
-On Linux:
+  on Linux:
+          sudo apt-get update
+          sudo apt-get install -y docker.io
+          sudo systemctl start docker
+          sudo systemctl enable docker
